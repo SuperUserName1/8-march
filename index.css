@@ -1,0 +1,22 @@
+body {
+    background-color: #E1F2F7;
+}
+img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #E5BACE;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+.header {
+    text-align: center;
+    color: #eE4A49;
+}
